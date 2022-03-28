@@ -1,0 +1,45 @@
+
+header h1 {
+    color: rgb(245, 246, 248);
+    font-size: 50px;
+}
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    header {
+        padding: 50px 30px;
+    }
+}
+
+header {
+    background-color: blueviolet;
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 30px;
+    text-align: center;
+}
+
+main {
+    text-align: center;    
+}
+.flex-list {
+    margin: 0 auto;
+}
+
+
+.gallery {
+    display: flex;
+}
+
+.item {
+    margin-left: 200px;
+    border-top: 40px;
+}
+
+.item2 {
+    margin-left: 50px;
+    margin-top: 18px;
+
+}
